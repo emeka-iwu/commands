@@ -122,3 +122,4 @@ git commit -m 'comment' #commits a file to git repository
 git status #checks the status of a git repository
 git checkout -b newbranch #creates a nw branch from current master branch
 git checkout branchname #changes branch to branchname
+git merge master #merges current branch with the master branch
