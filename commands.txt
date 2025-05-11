@@ -123,3 +123,4 @@ git status #checks the status of a git repository
 git checkout -b newbranch #creates a nw branch from current master branch
 git checkout branchname #changes branch to branchname
 git merge master #merges current branch with the master branch
+git version  #checks the version on git installed
