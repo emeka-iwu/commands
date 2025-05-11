@@ -129,3 +129,4 @@ git push -u origin localbranch:remotebranch   #pushes local repo branch to remot
 git branch -D branchname  #deletes a git branch
 git config --global user.name "<username>" # assigns username to git
 git config --global user.email "<email>" # assigns email to git
+git remote set-url origin https://github.com/emeka-iwu/repo_name  #changes origin url if it was mistaken during initial remote add command
