@@ -124,3 +124,8 @@ git checkout -b newbranch #creates a nw branch from current master branch
 git checkout branchname #changes branch to branchname
 git merge master #merges current branch with the master branch
 git version  #checks the version on git installed
+git remote add origin remote_repo_url  #links a remote repo to local
+git push -u origin localbranch:remotebranch   #pushes local repo branch to remote
+git branch -D branchname  #deletes a git branch
+git config --global user.name "<username>" # assigns username to git
+git config --global user.email "<email>" # assigns email to git
