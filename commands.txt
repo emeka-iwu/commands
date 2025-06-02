@@ -137,3 +137,5 @@ sudo dnf install epel-release #instals another package handler in system
 sudo du -sh /* 2> /dev/null | sort -h #lists folders in root dir and thier corresponding size
 git config --global merge.tool meld #installs meld as a GUI merge tool for git
 ssh -i key.pem user@ip_address #connect to server with ssh
+/var/www/http #folder for apache http files
+/etc/apache2/ #folder for apache config files
