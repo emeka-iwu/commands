@@ -131,3 +131,6 @@ git config --global user.name "<username>" # assigns username to git
 git config --global user.email "<email>" # assigns email to git
 git remote set-url origin https://github.com/emeka-iwu/repo_name  #changes origin url if it was mistaken during initial remote add command
 git mergetool  # for resolving merge issues in git
+sudo dnf search package #searches for a package to see if it exists
+sudo dnf repolist #lists all the available repo on system
+sudo dnf install epel-release #instals another package handler in system
