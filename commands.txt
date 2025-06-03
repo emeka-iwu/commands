@@ -139,3 +139,4 @@ git config --global merge.tool meld #installs meld as a GUI merge tool for git
 ssh -i key.pem user@ip_address #connect to server with ssh
 /var/www/http #folder for apache http files
 /etc/apache2/ #folder for apache config files
+git config --global core.editor "code --wait" #sets vscode as editor for GIT
