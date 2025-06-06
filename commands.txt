@@ -141,3 +141,5 @@ ssh -i key.pem user@ip_address #connect to server with ssh
 /etc/apache2/ #folder for apache config files
 git config --global core.editor "code --wait" #sets vscode as editor for GIT
 git push --all origin #pushes all local branches to online repo
+git diff --staged #tells difference in a branch from when its last commit
+git diff branch_1..branch_2 #shows difference between 2 branches
