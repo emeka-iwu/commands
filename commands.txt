@@ -146,3 +146,4 @@ git diff branch_1..branch_2 #shows difference between 2 branches
 git stash #to temporary save a branch that has yet been stagged or committed beore checking out
 git stash pop #to resume on a branch that was stashed
 git stash list #to show the list of stashes in a branch
+git push origin :branchname or git push origin --delete branchname #this deletes a branch online after it has been deleted locally
