@@ -147,3 +147,4 @@ git stash #to temporary save a branch that has yet been stagged or committed beo
 git stash pop #to resume on a branch that was stashed
 git stash list #to show the list of stashes in a branch
 git push origin :branchname or git push origin --delete branchname #this deletes a branch online after it has been deleted locally
+git commit -am 'quote' #code to add and commit at the same time
