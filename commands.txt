@@ -149,3 +149,7 @@ git stash list #to show the list of stashes in a branch
 git push origin :branchname or git push origin --delete branchname #this deletes a branch online after it has been deleted locally
 git commit -am 'quote' #code to add and commit at the same time
 git -M new_branch_name #renames current branch
+chsh -s "shell/path"
+echo $0 - shows current shell
+ip neigh - shows list of hosts previously connected to
+ip route - shows the router ip and routing table (how traffic/packets are directed)
